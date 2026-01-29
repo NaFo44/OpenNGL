@@ -20,7 +20,7 @@ Entity plane = {
   { 0.0f, 0.0f, 0.0f }
 };
 
-int main() {
+void main() {
   while(true) {
     drawObject(plane);
   }
@@ -58,3 +58,4 @@ To run the app on your development machine, you can use the following command
 # Now connect your NumWorks calculator to your computer using the USB cable
 make run
 ```
+
