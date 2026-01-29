@@ -1,4 +1,4 @@
-# Tiny 3D Engine
+# Open NumWorks Grapical Library
 
 This is a C++ app to use on a [NumWorks calculator](https://www.numworks.com).
 
@@ -58,4 +58,5 @@ To run the app on your development machine, you can use the following command
 # Now connect your NumWorks calculator to your computer using the USB cable
 make run
 ```
+
 
