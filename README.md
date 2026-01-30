@@ -11,11 +11,11 @@ Triangle planeTriangles[] = {
 };
 
 // new mesh : triangles, triangles count
-Mesh placeMesh = { planeTriangles, 2};
+Mesh planeMesh = { planeTriangles, 2};
 
 // new entity : position, rotation, scale, and pivot point
 Entity plane = {
-  &placeMesh,
+  &planeMesh,
   { { 0,0,0 }, { 0,0,0 }, { 1,1,1 } },
   { 0.0f, 0.0f, 0.0f }
 };
@@ -58,5 +58,6 @@ To run the app on your development machine, you can use the following command
 # Now connect your NumWorks calculator to your computer using the USB cable
 make run
 ```
+
 
 
